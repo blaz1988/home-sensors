@@ -4,7 +4,8 @@ home_sensors is service written in pure Ruby. It process the log content and pro
 
 # Usage
 * SensorEvaluator.new(log_contents_str).call
-* shortcut: SensorEvaluator.new(log_contents_str).call
+* shortcut: SensorEvaluator.call(log_contents_str)
+* bundle exec ruby service.rb
     
 # Tests
 * bundle install
