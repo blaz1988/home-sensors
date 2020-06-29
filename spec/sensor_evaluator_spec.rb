@@ -4,7 +4,6 @@ RSpec.describe SensorEvaluator do
   describe '#call' do
     subject { described_class.call(log_contents_str) }
 
-    let(:room_degrees) { 70 }
     let(:log_contents_str) { File.read(log_path) }
     let(:expected_output) do
       {
